@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/536/275/large_2x/vector-abstract-futuristic-circuit-board-illustration-technology-dark-blue-color-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000027;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.header img {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: white; /* Set heading text color to white */
+}
+
+.calendar-large {
+    margin: 15% auto;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.055);
+}
+
+th.header-day {
+    background-color: transparent;
+    color: black;
+}
+
+th, td {
+    background-color: transparent;
+    color: white; /* Set text color to white */
+    text-align: center;
+    width: 3em;
+    height: 3em;
+}
